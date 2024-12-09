@@ -14,15 +14,15 @@
   "contributes": {
     "commands": [
       {
-				"command": "catCoding.start",
-				"title": "Start cat coding session",
-				"category": "Cat Coding"
-			},
-			{
-				"command": "catCoding.doRefactor",
-				"title": "Do some refactoring",
-				"category": "Cat Coding"
-			}
+        "command": "catCoding.start",
+        "title": "Start cat coding session",
+        "category": "Cat Coding"
+      },
+      {
+        "command": "catCoding.doRefactor",
+        "title": "Do some refactoring",
+        "category": "Cat Coding"
+      }
     ]
   },
   "scripts": {
@@ -53,6 +53,8 @@
     "webpack-cli": "^5.1.4"
   },
   "dependencies": {
+    "@trpc/server": "^11.0.0-rc.485",
+    "@trpc/client": "^11.0.0-rc.485",
     "@vscode/wasm-component-model": "1.0.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
